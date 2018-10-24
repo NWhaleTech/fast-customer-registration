@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="nwhale" sortOrder="999998" class="nwhale-tab">
+            <label>
+                <![CDATA[
+                    <style>
+                        .config-nav-block.nwhale-tab .title {
+                            padding-top: 15px;
+                            padding-bottom: 11px;
+                        }
+                        .config-nav-block.nwhale-tab strong:before {
+                            background: no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuMTnU1rJkAAAHvklEQVRYR81ZC1DNWRi/Yk2itUPXYJoM5blRyCOVR015hTymPDIeM8x4TB55jIQZYbTFjaxXsxqvQojUhqwuUUaN1mt2aWgwDSvSYhaj7tnf77/nf/1vWVPS45v5zb3/833nO7/zne9859z/1dVE/P39XYFwIB7IBAqANxL8zjbqaOMqu9WNcEBgF/AEENUE+7Bv7ZGGc3vgIFBx4DggGBgKOAEtJPidbdTRpuLE6Mteuq+5wFkTIAJ4B3AAfsYCntKkysI+su9HQPVF302kydcJHPwAZABqFJhvTlL91UIfgHZ1OIadVFdP0LEb8Id0xGVzk6pvJvQpfXMMbj5nqaqaoANJFksHWUBbqfrmQt9yDI7FalG1jQZDLrcayUSgZvlTBeEYQJIckxH+cmBkBzUnOctaJ6mKHFuNbA5gLVWfRAihAEruQPOs1Pa6AseUY5NDlNpuFmnEOqmWIDfVqK7BsSUHljAntplFGqjlIl7bsT6g4ZLI58LCQneFKBp4LFLBiNa4TtZUyAFQDwVXEDWpCp6/bIzlDBwdHb/v3LmzfsuWLforV658pxhp5NixY01DQ0P1w4YN04eHh7cMCQmxmjhxYuu+ffvqY2NjW69bt66RNFVk4MCBOh8fnxadOnXSr1y5Un/q1KlmUmWW8ePHN+3Xr59dQECAXkaVJxg57QLR/0oWHtQE9qRRt27dIkHUuH79emNmZqYv27Ry/Phx9+XLlxtB1Lh27dqYpUuX6oODg5MxkBGTS927d6+tNFVk+vTpNvAd1rFjR+OSJUuMCQkJQVKliK+vr27cuHE+mFA6JmyURHncktMTxQhf1GV/QgOiR48eZ9u0aSMGDBggrl27Voi2uYqxlBMnTvivWLFCgKhYs2aN8cyZMx2ioqLe0H727NmlrVq1sihrN2/e3Ddz5syXNjY2AoTEwoULQ6RKkXv37vlt3bq1cNCgQeUgmqvyICfJzZUPvCvyIU5DNM3Ozk5YW1uLRYsWiX379m2OiYkx1zVEdPSyZctUolk5OTnNVq1aFerm5laEwT7cvXt3/4sXLxylue7AgQM5Y8aMEXq9XmClRGRkZN7Tp08DpVqXlJQUhFQSSA/6S9cQ5a2L3ML5wIsGH4JVg+7du6c5OTmJrl27CuSVGD58eH5ERMS0xMREK+q1RLH0VznY3Llz3RGNP0kkNTX1eXZ2dj+2FxQUNJ41a9YlDw8P+hHIf7F48eIP586dW089/FkhwpNHjhwpkD7l58+fP6vyICfJLZ4PvIXzYahqgBxN69Wrl9i0aZMIDAwUHTp0KEdkH168eDHIaDQ2xmbyr0gUG8TLYDA84MSQs8+AXg8ePGhx586dPfD9cvDgwWLbtm1K1NDvPXI1nP1ev349JT4+/gZWg2OdxRheGqK8z5JbJh94a+GDUlxVoj179nyHPIzZvXv3FSR7We/evUVcXNwdLOkUbIahFYnm5eXZYbcvQNqUov0dcvuXx48fuxw+fLiQ0Zw8efLbQ4cORfv5+WX36dOnbPXq1b8XFRX5YbOu3rx5s+jfv78A+V0Y00ZDlGWK3Ar4wBsLH1qoBsxREH0DwoEZGRnD4OCMq6vrRwxm2rlz509YWo+KRCljx479ccKECc+6dOkikpOT79+4ccMbm+uui4uLCXlZjMmMmTdvXgKjO3/+fNOlS5cWI/KhkyZNMqE8lcHvnqysrOYaovylQG5vvkT0LT6DgUYbNmxwhaMkZ2fnckQnH5FNIdEhQ4ZYED148GCfHTt2/OXg4EAir5AiqSBVAvyzcePGHcXFxQ4pKSmnZsyYITw9PU2wvxoWFnYNETaBbA7SyufRo0dN/o9opaWvSPT69etNLly4sGzBggUme3t709SpU8vnzJlTiSiWsRUqxGxE9PWIESNM0dHR5ehvAum/EdGppaWlutu3b3tjZX7F4WBCAMoRYRMDAN/7g4KCmqG4KxwkUYulr7SZKhJFm1VJSYkn8i1z1KhRH9q3by9Q3BkVC6IUpIkVfD1HqgjuZG4uRLHk4cOH06WJDhGN8Pb2Fsh94e7uLuCz7OTJkwlpaWnNqdcQtdhMlcpTRaKKd0hubq4H6mkKNoSwtbVVyIJotlQrgsLfEpvjFaIk2rVrJ5iP2Mk/m0ymntJEd+TIkWjkrmjbtq1gPiPCN/Pz8wPu37+vHNcaohbl6XMF/zdsgPf4nKklitrY6OjRoy7YmfEkgiNPYKfnS7Uip0+fboojdBXK2zOebrgLCEzOC0TNfi5fvuyD1MmgnukDf8m3bt3iyil6DVGLgl/pCEXBnwMikfjsC6JKZ61MmzbNYfTo0QYcmQacJItks1lAsjn6heBsN2zfvt2Qnp7eUapUaeTl5TUYaWFApTBgYua0oGiIfjpCKZoG5VJS3yJJWl5KKHiwuObVt0ii5muebLa4QTXIi7NsNs+gwf4UMYtUNvwfd6pAYfFzWTbXmXBMOTY5RMnmygJlQ3kBkQtUfgGhFRjYAer5Xx+vdJ4CVVtNGDoD6q2Ks6zLl2QDpapqgg4sWWq+8LO2XzsyktUjqQo6crZ8YUVHRG29yGVO1mzV4MAaiAK0r7O/1atxftL3lzdOdQTOGAVuLjUKBJfta/9soK/aOwXhnLnbcP+++ZxwQKAO/hDT6f4F+WykPZo1JWMAAAAASUVORK5CYII=);
+                            background-size: auto 29px;
+                            width: 30px;
+                            height: 29px;
+                            content: '';
+                            display: inline-block;
+                            margin-right: 5px;
+                            vertical-align: middle;
+                        }
+                    </style>
+                    NWhale Extensions
+                ]]>
+            </label>
+        </tab>
+
+        <section id="nwhale_fastregistration" translate="label" type="text" sortOrder="060118" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Fast Registration</label>
+            <tab>nwhale</tab>
+            <resource>NWhale_FastRegistration::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Settings</label>
+                <field id="enabled" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="attributes" translate="label,comment" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Required attributes</label>
+                    <comment>Comma separated list of attribute codes which must remain mandatory. email_address,password and confirmation are already on the list</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

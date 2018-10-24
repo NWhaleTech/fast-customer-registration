@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Eav\Model\Entity\Attribute">
+        <plugin name="nwhale_fastregistration_entity_attribute" type="NWhale\FastRegistration\Plugin\EntityAttributePlugin"/>
+    </type>
+    <type name="Magento\Customer\Model\Data\AttributeMetadata">
+        <plugin name="nwhale_fastregistration_attribute_metadata" type="NWhale\FastRegistration\Plugin\AttributeMetadataPlugin"/>
+    </type>
+    <type name="Magento\Customer\Block\Form\Register">
+        <plugin name="nwhale_fastregistration_form_register" type="NWhale\FastRegistration\Plugin\FormRegisterPlugin"/>
+    </type>
+</config>
